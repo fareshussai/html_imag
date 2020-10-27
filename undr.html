@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+
+<html  >
+
+<head>
+     
+    <title> undr html></undr></title>
+         <!--BASE لتحديد مسار الملفات الفرعية -->
+          <base href="رابط الموقع من الاستضافة " />
+
+
+               <!--اهم عنصرين للموقعك على الإنترنت هما -->
+    <meta charset="UTF-8"/>
+    <meta name="VIEWPORT"  content="WIDTH=DEVICE-WIDTH,INITAL-SCALE=1.0">
+
+
+</head>
+
+
+ <body>
+
+          <!-- autoplayloop  إعادة التشغيل تلقاى preload:none غير تلقاى:auto:تلقاى  :metdata:تحميل مقطع الصوتي بعد تحميل موقعك -->
+
+    <audio  controls  autoplay loop  preload="auto
+
+    <source  src="fares.mp3"  type="audio/mpeg" />
+
+    </audio>
+
+    
+   
+    <video controls   prelond="auto">
+
+     <source src="fares.m" type="video/mp4" width="10px"    height="10px" >
+
+
+    </video>
+
+    <!--embed : لعرض ملفات  bdf-->
+
+     <embed src="BDF FAIL.pdf" width="400"  height="400"/>
+
+
+
+
+            <!--عرض فيديوهات اليوتيوب على صفحتك:/ لعرض الفيديوهات الموجودة على موقعك فقط نستخدم ?REF=0  -->
+
+
+             <iframe width="360" height="202.5" src="https://www.youtube-nocookie.com/embed/SSIy7QSB9lI?REF=0"    
+               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                                                                                                                                           
+                       <!-- 560 %لتحكم في الطول والعرض نستحدم الالة الحاسبة315 الناتج نضرب في 360-->
+   
+
+
+
+        <details style="background-color: brown; border: 8px; padding: 5px;margin: 6px;"   WIDTH="10PX"   HEIGHT="10PX">
+
+         <summary>
+            المزيد من التفاصيل
+
+
+         </summary>
+
+         <P>
+
+           MY NAME IS DETILS IN SUMMSRY TAG 
+           MY NAME IS DETILS IN SUMMSRY TAG 
+           MY NAME IS DETILS IN SUMMSRY TAG 
+           MY NAME IS DETILS IN SUMMSRY TAG 
+           MY NAME IS DETILS IN SUMMSRY TAG 
+           MY NAME IS DETILS IN SUMMSRY TAG 
+           MY NAME IS DETILS IN SUMMSRY TAG 
+
+         </P>
+
+
+        </details>
+
+      <A href="HTTP://GOOGLE.COM">
+
+        <button   type="button">BUTTON</button>
+
+     </A>
+ 
+
+
+           <form action="REGISER.PHP"   method="POST">
+
+              <label for="FIRST NAME"> <SPAN STYLE="COLOR:RED">*</SPAN> <BR>FIRST NAME:</label>
+              <input type="text"  name="FNAME"    placeholder="الاسم الاول"   required   minlength="3"  maxlength="6"/>
+                                    <BR> 
+                  <label for="LAST NAME"> <samp style="color: brown;">*</samp><BR>LAST NAME:</label>
+                  <input type="TEXT"  name="LNAME"   placeholder="الاسم الثاني"  required/>
+                                <BR>
+            <label for="AGE"><samp STYLE="COLOR:BLUE">*</samp><BR>AGE:</label>
+            <input type="number"  NAME="AGE"    placeholder="العمر"    required   minlength="3" maxlength="8"/>
+                                 <BR>
+                
+             <label for="PASSWORD"><samp  STYLE="COLOR:RED">*</samp><BR>PASSWORD:</label>
+               <input type="password" name="PASSWORD"  placeholder="كلمة المرور"   required />
+                     <BR>
+               <label  for="EMAIL"><samp STYLE="COLOR:BLUE">*</samp><BR>EMAIL:</labeL>
+                 <input type="email"  name="EMAIL"   placeholder="البريد الإلكتروني" required/>
+                                <BR>
+
+                <label for="gender"><span style="color:blueviolet">*</span><br>تحديد الجنسية:</label>
+                <input type="radio"   name="gender"  placeholder="تحديد الجنسية"  required    value="ذكر"/> ذكر
+                <input type="radio"   name="gender"  placeholder="تحديد الجنسية"  required    value="أنثى"/> أنثى
+                                             <br>              
+                                         <h2>إختار الالوان التالية</h2>                                                                                  
+                  <label for="red"><samp style="color:burlywood">*</samp><br>الاحمر</label>
+                  <input type="checkbox"  name="red" placeholder="إختار اللون" required>
+                                 <br>
+                  <label for="blue"><samp style="color:burlywood">*</samp><br>الازرق</label>
+                  <input type="checkbox"  name="red" placeholder="إختار اللون" required>
+                                  <br>
+                  <label for="green"><samp style="color:burlywood">*</samp><br>الاخضر</label>
+                  <input type="checkbox"  name="red" placeholder="إختار اللون" required>
+                                     <br>
+                  <label for="brown"><samp style="color:burlywood">*</samp><br>البني</label>
+                  <input type="checkbox"  name="red" placeholder="إختار اللون" required>
+                                  <br>
+                <input type="date"  min="1989-6-6"  max="1980-8-6"  value="2015-5-5"/>
+                                                        <BR>
+            
+                    <a href="REGISTER.HTML">
+
+                   <button type="button"> إرسال البيانات</button>
+
+                   </a>
+
+                <!--DISa BLED: تعطيل اللغات  ;size:تحديد3او4 لغة;autofocus:للغة تلقائية;multiple اختار العديد للمستخدم-->
+                                                                                                                                                                                                                    
+                   <form method="GET">
+                     
+                       <H3>إختار اللغة</H3>
+                    <SELECT    autofocus name="lang"  required >
+                         <option value="">اختار اللغة</option>
+                    <option value="اللغة الانجليزية"> اللغةالانجليزية </option>
+                    <option   value="اللغة العربية"> اللغة العربية  </option>
+                    <option value="اللغة اللاتينية"> اللغة اللاتينية  </option>
+                    <option value="اللغة الاسبانية"> اللغة الاسبانية  </option>
+                    <option  value="اللغة الهولندية"> اللغة الهولندية  </option>
+                    <option  value="اللغة الفارسية" > اللغة الفارسية  </option>
+
+                   </SELECT>
+
+                       <button type="submit">إكتمل</button>               
+
+
+                     </form>
+
+
+                                                                                                                                                                
+
+                                 <!--accept:تعني سماح   doc,.bdf/صيغة ملفات الورد-->
+
+
+                            <form>
+
+                           <input type="file"   accept=".doc,.bdf"  name="file"  required/>
+                                               <br>
+                                 <button type="submit" >إرسال الملف</button>
+     
+
+                             </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>
+
+
+
+
+
+
+
+
+
+</html>
